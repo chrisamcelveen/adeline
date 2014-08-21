@@ -271,6 +271,7 @@ transition:background 1s ease;
   display: block;
   text-align: center;
   text-decoration: none;
+  margin: 8px 0px;
   padding: 6px;
   background: #f98253;
   -webkit-transition: background 0.35s ease-in-out;
