@@ -380,6 +380,39 @@ transition:background 1s ease;
 }
 
 /* ----------------------------------------------------
+    Description Styles
+    -------------------------------------------------*/
+
+#description {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+#description .box {
+  border: solid 4px #f98253;
+  border-radius: 6px;
+}
+
+#description h2 {
+  color: #f98253;
+  font-weight: 600;
+}
+
+/* ----------------------------------------------------
+    Products Styles
+    -------------------------------------------------*/
+
+#products {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+#products .price {
+  color: #f98253;
+  font-size: 14px;
+}
+
+/* ----------------------------------------------------
     Footer Styles
     -------------------------------------------------*/
 
