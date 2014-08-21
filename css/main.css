@@ -1,0 +1,434 @@
+/* ===================================================
+   Document Information and Permissions
+   =================================================== */
+
+/*
+Company Name:       Adeline LLC
+Version:            '~1.0.0'
+Date:               08/06/2014
+Document Type:      Cascading Style Sheet via Syntactically Awesome Stylesheets
+Author:             Christopher A. McElveen
+Company URL:        http://www.adeline-llc.com
+Support Email:      chris@chrisamcelveen.com
+Permissions:        All rights reserved.
+
+
+                    Thanks,
+*/
+
+/* ===================================================
+   /Document Information and Permissions
+   =================================================== */
+
+/* ----------------------------------------------------
+    Import Section
+    -------------------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+
+
+/*
+    a {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 1.125em;
+        color: inherit;
+    }
+*/
+
+
+/* ----------------------------------------------------
+    Global Styles
+    -------------------------------------------------*/
+
+
+/* ===================================================
+   Note & Example
+   =================================================== */
+
+
+/*  
+    - Please refrain from using the px value expect for font sizes.
+
+    - Please adhere to the "Style Structure Template" below.
+*/
+
+
+/* Style Structure Template:
+
+    .class, (or) #id {
+        sizing: (i.e. height and width, this is for postioning -
+                - an element in relation to the the page);
+        positioning: (i.e. all of your margins and paddings);
+                    visual styles: (i.e. color, font styles, and other non-structural -
+                    edits);
+
+    }
+
+    ***Example****
+
+                #id .class {
+                    width: 100%;
+                    margin: auto !important;
+                    background-color: blue;
+                    border-radius: 6px;
+                }
+
+    ***End***
+
+*/
+
+
+/* ===================================================
+   /Note & Example
+   =================================================== */
+
+html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background: #fff;
+    line-height: 1.2em;
+}
+
+html{
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, p, b {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -0.03em;
+    line-height: 1.5625em;;
+    font-weight: 400;
+    color: rgba( 0, 0, 0, 0.75);
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5625em;;
+  font-weight: 400;
+}
+
+/*----------Margins-------------------*/
+
+
+.margin-0 {
+    margin-bottom: 0 !important;
+}
+.margin-10 {
+    margin-bottom: 10px !important;
+}
+.margin-15 {
+    margin-bottom: 15px !important;
+}
+.margin-20 {
+    margin-bottom: 20px !important;
+}
+.margin-30 {
+    margin-bottom: 30px !important;
+}
+.margin-40 {
+    margin-bottom: 40px !important;
+}
+.margin-50 {
+    margin-bottom: 50px !important;
+}
+.margin-60 {
+    margin-bottom: 60px !important;
+}
+.margin-70 {
+    margin-bottom: 70px !important;
+}
+.margin-80 {
+    margin-bottom: 80px !important;
+}
+.margin-90 {
+    margin-bottom: 90px !important;
+}
+.margin-100 {
+    margin-bottom: 100px !important;
+}
+
+
+/*----------Colors-------------------*/
+
+.white {
+    color: #fff;
+}
+
+.black {
+    color: #000;
+}
+
+.darker-gray {
+    color: lighten(#000, 13.5%);
+}
+
+.dark-gray {
+    color: lighten(#000, 20%);
+}
+
+.gray {
+    color: lighten(#000, 33.5%);
+}
+
+.lighter-gray {
+    color: lighten(#000, 93.5%);
+}
+
+.light-gray {
+    color: lighten(#000, 60%);
+}
+
+.blue {
+  color: #38c8e0;
+}
+
+.orange {
+  color: #f98253;
+}
+
+.red {
+    color: #d9534f;
+}
+
+.green {
+    color: #5cb85c;
+}
+
+.yellow {
+    color: #f0ad4e;
+}
+
+
+/* ----------------------------------------------------
+    Item Styles
+    -------------------------------------------------*/
+
+/* Button */
+
+a.btn, a.btn:visited, a.btn:hover{
+    color:#333 !important;
+}
+
+a.btn-primary,a.btn-primary:visited,a.btn-primary:hover,
+a.btn-warning,a.btn-warning:visited,a.btn-warning:hover,
+a.btn-danger,a.btn-danger:visited,a.btn-danger:hover,
+a.btn-success,a.btn-success:visited,a.btn-success:hover,
+a.btn-info,a.btn-info:visited,a.btn-info:hover,
+a.btn-inverse,a.btn-inverse:visited,a.btn-inverse:hover{
+  color:#fff !important;
+}
+
+.button{
+    margin: 10px 0px 5px 0px;
+}
+
+.button a, .button a:visited{
+color: #fff;
+padding: 5px 10px;
+font-size: 12px;
+font-weight: 600;
+border-radius: 3px;
+-webkit-transition:background 1s ease;
+-moz-transition:background 1s ease;
+-o-transition:background 1s ease;
+transition:background 1s ease;
+font-family: 'Raleway', sans-serif;
+}
+
+.button a:hover{
+color: #fff;
+text-decoration: none;
+-webkit-transition:background 1s ease;
+-moz-transition:background 1s ease;
+-o-transition:background 1s ease;
+transition:background 1s ease;
+}
+
+
+/* ----------------------------------------------------
+    
+    -------------------------------------------------*/
+/* ----------------------------------------------------
+    Main Styles
+    -------------------------------------------------*/
+/* ----------------------------------------------------
+    
+    -------------------------------------------------*/
+
+
+
+/* ----------------------------------------------------
+    Button Styles
+    -------------------------------------------------*/
+
+#button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  background: #f98253;
+  -webkit-transition: background 0.35s ease-in-out;
+  -moz-transition: background 0.35s ease-in-out;
+  -o-transition: background 0.35s ease-in-out;
+  transition: background 0.35s ease-in-out;
+  border: solid 4px #f98253;
+  border-radius: 6px;
+  color: #ffffff;
+  -webkit-transition: color 0.35s linear;
+  -moz-transition: color 0.35s linear;
+  -o-transition: color 0.35s linear;
+  transition: color 0.35s linear;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#button:hover {
+  background: transparent;
+  color: #f98253;
+}
+
+#button:focus {
+  background: transparent;
+  color: #f98253;
+}
+
+/* ----------------------------------------------------
+    Navigation Styles
+    -------------------------------------------------*/
+
+
+#top-nav {
+  background: rgba( 255, 255, 255, 1.00) !important;
+  border-bottom: none;
+}
+
+#top-nav ul {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#top-nav .nav a {
+  margin: 4px 10px;
+  background: transparent;
+  color: rgba( 62, 62, 62, 0.85);
+  font-weight: 600;
+  font-size: 18px;
+  border: solid 1px transparent;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+}
+
+#top-nav .nav a:hover,
+#top-nav .nav a:focus {
+  background: transparent;
+  color: #f98253;
+}
+
+#top-nav a.navbar-brand {
+  margin: 12px;
+  padding: 8px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  background: transparent;
+}
+
+.nav .active > a, .nav .active > a:hover, .nav .active > a:focus {
+  background-color: transparent;
+  color: #38c8e0;
+  box-shadow: none;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 300;
+  color: rgba( 65, 65, 65, 1.00);
+}
+
+
+
+/* ----------------------------------------------------
+    Features Styles
+    -------------------------------------------------*/
+
+#features {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+#features h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f98253;
+}
+
+#features p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* ----------------------------------------------------
+    Footer Styles
+    -------------------------------------------------*/
+
+#footer {
+  height: auto;
+  margin-bottom: 0;
+  background: rgba( 12, 12, 12, 0.85);
+}
+
+#footer img {
+  margin: 22px;
+  width: 70%;
+}
+
+#footer p{
+  margin: 10px 0px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: -0.125em;
+}
+
+#footer i {
+  margin: 18px 12px;
+  padding: 6px;
+  color: #000000;
+  -webkit-transition: color 0.35s ease-in-out;
+  -moz-transition: color 0.35s ease-in-out;
+  -o-transition: color 0.35s ease-in-out;
+  transition: color 0.35s ease-in-out;
+  background: gray;
+  -webkit-transition: background 0.35s ease-in-out;
+  -moz-transition: background 0.35s ease-in-out;
+  -o-transition: background 0.35s ease-in-out;
+  transition: background 0.35s ease-in-out;
+  border-radius: 2px;
+}
+
+#footer i:hover {
+  background: #ffffff;
+  color: #f98253;
+}
+
+#footer i:focus {
+  background: #ffffff;
+  color: #f98253;
+}
+
+
+
+
+
+
